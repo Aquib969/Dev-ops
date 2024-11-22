@@ -1,9 +1,10 @@
 ######################################################### 
 Docker Installation 
-######################################################### ---** Remove old packages **--- 
+#########################################################
+                           ---** Remove old packages **--- 
 $ for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get 
-remove $pkg; done ---
-** Set up Repository **--- 
+remove $pkg; done
+                           ---** Set up Repository **--- 
 $ sudo apt-get update 
 $ sudo apt-get install ca-certificates curl gnupg -y 
 $ sudo install -m 0755 -d /etc/apt/keyrings 
